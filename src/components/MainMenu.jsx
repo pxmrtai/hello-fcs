@@ -35,55 +35,71 @@ class MainMenu extends Component {
         <Router>
           <Row>
             <Col sm="6">
-            <Link to ='blog1'>
-              <Card body>
-                <CardTitle tag="h5">This is Blog 1</CardTitle>
-                <CardText>
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </CardText>
-                <Button>Go somewhere</Button>
-              </Card>
-            </Link>
-            </Col>
-            <Col sm="6">
-            <Link to ='blog2'>
-
-
-              <Card body>
-                <CardTitle tag="h5">This is Blog 2</CardTitle>
-                <CardText>
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </CardText>
-                <Button>Go somewhere</Button>
-              </Card>
+              <Link to="blog1">
+                <Card body>
+                  <CardTitle tag="h5">Blog 1</CardTitle>
+                  <CardImg
+                    width="100%"
+                    src="https://picsum.photos/200/300?grayscale"
+                    alt="Card image cap"
+                  />
+                  <CardText>This is Blog 1</CardText>
+                  <Button>Check</Button>
+                </Card>
               </Link>
             </Col>
             <Col sm="6">
-            <Link to ='blog3'>
+              <Link to="blog2">
+                <Card body>
+                  <CardTitle tag="h5">This is Blog 2</CardTitle>
+                  <CardImg
+                    width="100%"
+                    src="https://picsum.photos/seed/picsum/200/300"
+                    alt="Card image cap"
+                  />
 
-              <Card body>
-                <CardTitle tag="h5">This is Blog 3</CardTitle>
-                <CardText>
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </CardText>
-                <Button>Go somewhere</Button>
-              </Card>
+                  <CardText>
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </CardText>
+                  <Button>Go somewhere</Button>
+                </Card>
               </Link>
             </Col>
             <Col sm="6">
-            <Link to ='blog4'>
+              <Link to="blog3">
+                <Card body>
+                  <CardTitle tag="h5">This is Blog 3</CardTitle>
+                  <CardImg
+                    width="100%"
+                    src="https://picsum.photos/id/23/200/300"
+                    alt="Card image cap"
+                  />
 
-              <Card body>
-                <CardTitle tag="h5">This is Blog 4</CardTitle>
-                <CardText>
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </CardText>
-                <Button>Go somewhere</Button>
-              </Card>
+                  <CardText>
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </CardText>
+                  <Button>Go somewhere</Button>
+                </Card>
+              </Link>
+            </Col>
+            <Col sm="6">
+              <Link to="blog4">
+                <Card body>
+                  <CardTitle tag="h5">This is Blog 4</CardTitle>
+                  <CardImg
+                    width="100%"
+                    src="https://picsum.photos/id/235/200/300"
+                    alt="Card image cap"
+                  />
+
+                  <CardText>
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </CardText>
+                  <Button>Go somewhere</Button>
+                </Card>
               </Link>
             </Col>
           </Row>
